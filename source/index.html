@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html class="page" lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <title>Название проекта</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="styles/styles.css">
-    <script src="scripts/index.js" defer></script>
-  </head>
-  <body class="button">
-    <header class="title">Шапка</header>
-  </body>
-</html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учебный макет школы фмш</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body class="page__body body">
+    <header class="main">
+        <a class="main__logo">
+            <img class="main__logo--image" src="images/logo.svg" width="66px" height="76.867px" alt="логотип физико-математической школы">
+        </a>
+        <nav class="main-nav">
+            <button class="main-nav__toggle" type="button">
+            </button>
+            <ul class="main-nav__list site-list">
+                <li class="site-list__item">
+                    <a class="site-list__link">главная</a>
+                </li>
+                <li class="site-list__item">
+                    <a class="site-list__link" href="catalog.html"> каталог продукции</a>
+                </li>
+                <li class="site-list__item">
+                    <a class="site-list__link" href="selection.html">подбор программы</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
