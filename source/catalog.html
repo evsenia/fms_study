@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Учебный макет школы фмш</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preload" href="fonts/lato/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/oswald/oswaldregular.woff2" as="font" type="font/woff2" crossorigin />
+</head>
+
+<body class="page">
+    <header class="main">
+        <a class="main__logo">
+            <img class="main__logo-image" src="images/logo.svg" width="66" height="77"
+                alt="логотип физико-математической школы">
+        </a>
+        <nav class="main-nav">
+            <button class="main-nav__toggle" type="button">открыть меню</button>
+            <ul class="main-nav__list site-list">
+                <li class="site-list__item">
+                    <a class="site-list__link">главная</a>
+                </li>
+                <li class="site-list__item">
+                    <a class="site-list__link" href="catalog.html"> каталог продукции</a>
+                </li>
+                <li class="site-list__item">
+                    <a class="site-list__link" href="selection.html">подбор программы</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container">
+      <h1 class="visually-hidden">Каталог интернет-магазина программ для повышения IQ</h1>
+      <h2 class="main__title">Каталог продукции</h2>
+      <section class="catalog">
+        <ul class="cards">
+          <li class="cards__item">
+            <img class="cards__item--image" src="images/physics.png" width="68" height="78">
+            <div class="cards__item--information information">
+              <h3 class="information__title">физика PRO 500</h3>
+              <div class="information__item">
+                <div class="information__item-tasks tasks">
+                  <span class="tasks__name">Задачи</span>
+                  <span class="tasks__fact">500</span>
+                </div>
+                <div class="information__item-time time">
+                  <span class="time__name">Часов</span>
+                  <span class="time__fact">700</span>
+                </div>
+                <div class="information__item-complexity complexity">
+                  <span class="complexity__name">Сложность</span>
+                  <span class="complexity__fact">Бывалый</span>
+                </div>
+              </div>
+              <a class="information__button" href="#">Заказать</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
